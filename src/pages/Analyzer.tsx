@@ -1,0 +1,2 @@
+import { NewsAnalyzer } from '@/components/NewsAnalyzer';
+export function Analyzer() { return <main className="page shell analyzer-page"><div className="page-heading"><div><p className="eyebrow">AI-powered news analysis</p><h1>Inspect the <em>signal.</em></h1><p>Paste a headline and article to receive a model-based classification.</p></div><div className="api-badge"><i /> REST API connected</div></div><NewsAnalyzer /></main>; }

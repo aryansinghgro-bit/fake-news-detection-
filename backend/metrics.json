@@ -1,0 +1,29 @@
+{
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1": 100.0,
+  "confusion_matrix": [
+    [
+      28,
+      0
+    ],
+    [
+      0,
+      28
+    ]
+  ],
+  "label_mapping": {
+    "0": "REAL",
+    "1": "FAKE"
+  },
+  "train_samples": 224,
+  "test_samples": 56,
+  "total_samples": 280,
+  "max_features": 10000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "model_type": "LogisticRegression"
+}

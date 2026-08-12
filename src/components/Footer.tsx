@@ -1,0 +1,2 @@
+import { ShieldCheck } from 'lucide-react';
+export function Footer() { return <footer className="footer"><div className="shell footer-inner"><div className="brand"><span className="brand-mark"><ShieldCheck size={17} /></span><span>TRUTHSCAN <b>AI</b></span></div><p>A research-grade interface for exploring language patterns in news.</p><small>Model output is informational, not authoritative fact-checking.</small></div></footer>; }
